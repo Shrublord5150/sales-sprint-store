@@ -26,3 +26,5 @@ db.sequelize.sync(syncOptions).then(() => {
     console.log(`🌎 Listening on Port ${PORT}`)
   })
 })
+
+//ds was here
