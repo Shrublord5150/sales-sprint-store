@@ -7,11 +7,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.4",
     "react-redux": "^6.0.1",
-<<<<<<< HEAD
-    "react-router-dom": "^5.0",
-=======
     "react-router-dom": "^5.0.0",
->>>>>>> a0b8e232a8590b33da2046972222cb05e33015bd
     "react-scripts": "2.1.8"
   },
   "scripts": {
