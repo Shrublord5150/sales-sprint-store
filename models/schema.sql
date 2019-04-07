@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS ss_store;
+CREATE DATABASE ss_store;
