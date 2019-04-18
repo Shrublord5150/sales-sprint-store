@@ -37,14 +37,14 @@ module.exports = function (sequelize, DataTypes) {
         
     });
 
-    Inventory.associate = function (models) {
-        models.Inventory.belongsTo(models.Employee, {
-            onDelete: "CASCADE",
-            foreignKey: {
-                allowNull: false
-            }
-        })
-    };
+    // Inventory.associate = function (models) {
+    //     models.Inventory.belongsTo(models.Employee, {
+    //         onDelete: "CASCADE",
+    //         foreignKey: {
+    //             allowNull: false
+    //         }
+    //     })
+    // };
 
     return Inventory;
 };
